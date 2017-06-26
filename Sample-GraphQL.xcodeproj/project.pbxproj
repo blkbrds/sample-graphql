@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358DB8E085574F3C1B7A3AFA /* Pods_Sample_GraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BDE84433BB2DEBDF6CA90B /* Pods_Sample_GraphQL.framework */; };
+		76B44FE0E24FC00485596DAF /* Pods_Sample_GraphQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC99D46144AC5DC83BFE4D /* Pods_Sample_GraphQLTests.framework */; };
+		ECE05FF71F01264A009BAC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE05FF61F01264A009BAC3E /* AppDelegate.swift */; };
+		ECE05FF91F01264A009BAC3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE05FF81F01264A009BAC3E /* ViewController.swift */; };
+		ECE05FFC1F01264A009BAC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE05FFA1F01264A009BAC3E /* Main.storyboard */; };
+		ECE05FFE1F01264A009BAC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE05FFD1F01264A009BAC3E /* Assets.xcassets */; };
+		ECE060011F01264A009BAC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE05FFF1F01264A009BAC3E /* LaunchScreen.storyboard */; };
+		ECE0600C1F01264A009BAC3E /* Sample_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0600B1F01264A009BAC3E /* Sample_GraphQLTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE060081F01264A009BAC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE05FEB1F01264A009BAC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE05FF21F01264A009BAC3E;
+			remoteInfo = "Sample-GraphQL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A98AAF1F66D19BC76762C34 /* Pods-Sample-GraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GraphQL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GraphQL/Pods-Sample-GraphQL.debug.xcconfig"; sourceTree = "<group>"; };
+		32BDE84433BB2DEBDF6CA90B /* Pods_Sample_GraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_GraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C913BD6009DD03F2D3EE8B /* Pods-Sample-GraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GraphQL.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GraphQL/Pods-Sample-GraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		99CE251DFBC237F648673C8A /* Pods-Sample-GraphQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GraphQLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GraphQLTests/Pods-Sample-GraphQLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E47AF0EBD54A31AFB0C4A703 /* Pods-Sample-GraphQLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GraphQLTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GraphQLTests/Pods-Sample-GraphQLTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBEC99D46144AC5DC83BFE4D /* Pods_Sample_GraphQLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_GraphQLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE05FF31F01264A009BAC3E /* Sample-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE05FF61F01264A009BAC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECE05FF81F01264A009BAC3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECE05FFB1F01264A009BAC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECE05FFD1F01264A009BAC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECE060001F01264A009BAC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECE060021F01264A009BAC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE060071F01264A009BAC3E /* Sample-GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-GraphQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE0600B1F01264A009BAC3E /* Sample_GraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_GraphQLTests.swift; sourceTree = "<group>"; };
+		ECE0600D1F01264A009BAC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE05FF01F01264A009BAC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358DB8E085574F3C1B7A3AFA /* Pods_Sample_GraphQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE060041F01264A009BAC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B44FE0E24FC00485596DAF /* Pods_Sample_GraphQLTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622B7533B470FD2FABDA0F9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A98AAF1F66D19BC76762C34 /* Pods-Sample-GraphQL.debug.xcconfig */,
+				66C913BD6009DD03F2D3EE8B /* Pods-Sample-GraphQL.release.xcconfig */,
+				99CE251DFBC237F648673C8A /* Pods-Sample-GraphQLTests.debug.xcconfig */,
+				E47AF0EBD54A31AFB0C4A703 /* Pods-Sample-GraphQLTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		702063AA3EC037117EED1AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32BDE84433BB2DEBDF6CA90B /* Pods_Sample_GraphQL.framework */,
+				EBEC99D46144AC5DC83BFE4D /* Pods_Sample_GraphQLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE05FEA1F01264A009BAC3E = {
+			isa = PBXGroup;
+			children = (
+				ECE05FF51F01264A009BAC3E /* Sample-GraphQL */,
+				ECE0600A1F01264A009BAC3E /* Sample-GraphQLTests */,
+				ECE05FF41F01264A009BAC3E /* Products */,
+				622B7533B470FD2FABDA0F9E /* Pods */,
+				702063AA3EC037117EED1AD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE05FF41F01264A009BAC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE05FF31F01264A009BAC3E /* Sample-GraphQL.app */,
+				ECE060071F01264A009BAC3E /* Sample-GraphQLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE05FF51F01264A009BAC3E /* Sample-GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				ECE05FF61F01264A009BAC3E /* AppDelegate.swift */,
+				ECE05FF81F01264A009BAC3E /* ViewController.swift */,
+				ECE05FFA1F01264A009BAC3E /* Main.storyboard */,
+				ECE05FFD1F01264A009BAC3E /* Assets.xcassets */,
+				ECE05FFF1F01264A009BAC3E /* LaunchScreen.storyboard */,
+				ECE060021F01264A009BAC3E /* Info.plist */,
+			);
+			path = "Sample-GraphQL";
+			sourceTree = "<group>";
+		};
+		ECE0600A1F01264A009BAC3E /* Sample-GraphQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0600B1F01264A009BAC3E /* Sample_GraphQLTests.swift */,
+				ECE0600D1F01264A009BAC3E /* Info.plist */,
+			);
+			path = "Sample-GraphQLTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE05FF21F01264A009BAC3E /* Sample-GraphQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE060101F01264A009BAC3E /* Build configuration list for PBXNativeTarget "Sample-GraphQL" */;
+			buildPhases = (
+				5FB9F0616DE5D8B2BF1D6223 /* [CP] Check Pods Manifest.lock */,
+				ECE05FEF1F01264A009BAC3E /* Sources */,
+				ECE05FF01F01264A009BAC3E /* Frameworks */,
+				ECE05FF11F01264A009BAC3E /* Resources */,
+				C50532CC9499AB98BBC3E5F9 /* [CP] Embed Pods Frameworks */,
+				07ECB192E90A85107EC6E4A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample-GraphQL";
+			productName = "Sample-GraphQL";
+			productReference = ECE05FF31F01264A009BAC3E /* Sample-GraphQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE060061F01264A009BAC3E /* Sample-GraphQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE060131F01264A009BAC3E /* Build configuration list for PBXNativeTarget "Sample-GraphQLTests" */;
+			buildPhases = (
+				9D1FEB1B1300E714302B61E2 /* [CP] Check Pods Manifest.lock */,
+				ECE060031F01264A009BAC3E /* Sources */,
+				ECE060041F01264A009BAC3E /* Frameworks */,
+				ECE060051F01264A009BAC3E /* Resources */,
+				DBD54B183EBE5B5C8D4E674C /* [CP] Embed Pods Frameworks */,
+				5F0606788A33A422CB842180 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE060091F01264A009BAC3E /* PBXTargetDependency */,
+			);
+			name = "Sample-GraphQLTests";
+			productName = "Sample-GraphQLTests";
+			productReference = ECE060071F01264A009BAC3E /* Sample-GraphQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE05FEB1F01264A009BAC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Asian Tech Co., Ltd.";
+				TargetAttributes = {
+					ECE05FF21F01264A009BAC3E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					ECE060061F01264A009BAC3E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECE05FF21F01264A009BAC3E;
+					};
+				};
+			};
+			buildConfigurationList = ECE05FEE1F01264A009BAC3E /* Build configuration list for PBXProject "Sample-GraphQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE05FEA1F01264A009BAC3E;
+			productRefGroup = ECE05FF41F01264A009BAC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE05FF21F01264A009BAC3E /* Sample-GraphQL */,
+				ECE060061F01264A009BAC3E /* Sample-GraphQLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE05FF11F01264A009BAC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE060011F01264A009BAC3E /* LaunchScreen.storyboard in Resources */,
+				ECE05FFE1F01264A009BAC3E /* Assets.xcassets in Resources */,
+				ECE05FFC1F01264A009BAC3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE060051F01264A009BAC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07ECB192E90A85107EC6E4A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample-GraphQL/Pods-Sample-GraphQL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0606788A33A422CB842180 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample-GraphQLTests/Pods-Sample-GraphQLTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB9F0616DE5D8B2BF1D6223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1FEB1B1300E714302B61E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C50532CC9499AB98BBC3E5F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample-GraphQL/Pods-Sample-GraphQL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD54B183EBE5B5C8D4E674C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample-GraphQLTests/Pods-Sample-GraphQLTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE05FEF1F01264A009BAC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE05FF91F01264A009BAC3E /* ViewController.swift in Sources */,
+				ECE05FF71F01264A009BAC3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE060031F01264A009BAC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0600C1F01264A009BAC3E /* Sample_GraphQLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE060091F01264A009BAC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE05FF21F01264A009BAC3E /* Sample-GraphQL */;
+			targetProxy = ECE060081F01264A009BAC3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE05FFA1F01264A009BAC3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE05FFB1F01264A009BAC3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE05FFF1F01264A009BAC3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE060001F01264A009BAC3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE0600E1F01264A009BAC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECE0600F1F01264A009BAC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE060111F01264A009BAC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A98AAF1F66D19BC76762C34 /* Pods-Sample-GraphQL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sample-GraphQL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.asiantech.dev.Sample-GraphQL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECE060121F01264A009BAC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C913BD6009DD03F2D3EE8B /* Pods-Sample-GraphQL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sample-GraphQL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.asiantech.dev.Sample-GraphQL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECE060141F01264A009BAC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CE251DFBC237F648673C8A /* Pods-Sample-GraphQLTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sample-GraphQLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.asiantech.dev.Sample-GraphQLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample-GraphQL.app/Sample-GraphQL";
+			};
+			name = Debug;
+		};
+		ECE060151F01264A009BAC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47AF0EBD54A31AFB0C4A703 /* Pods-Sample-GraphQLTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sample-GraphQLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.asiantech.dev.Sample-GraphQLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample-GraphQL.app/Sample-GraphQL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE05FEE1F01264A009BAC3E /* Build configuration list for PBXProject "Sample-GraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE0600E1F01264A009BAC3E /* Debug */,
+				ECE0600F1F01264A009BAC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE060101F01264A009BAC3E /* Build configuration list for PBXNativeTarget "Sample-GraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE060111F01264A009BAC3E /* Debug */,
+				ECE060121F01264A009BAC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECE060131F01264A009BAC3E /* Build configuration list for PBXNativeTarget "Sample-GraphQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE060141F01264A009BAC3E /* Debug */,
+				ECE060151F01264A009BAC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE05FEB1F01264A009BAC3E /* Project object */;
+}
