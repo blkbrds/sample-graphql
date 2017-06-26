@@ -1,0 +1,8 @@
+{
+  "name": "sample-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://at-daonguyen@github.com/blkbrds/sample-graphql.git",
+  "author": "Dao Nguyen V. <dao.nguyen@asiantech.vn>",
+  "license": "MIT"
+}

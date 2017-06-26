@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		358DB8E085574F3C1B7A3AFA /* Pods_Sample_GraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BDE84433BB2DEBDF6CA90B /* Pods_Sample_GraphQL.framework */; };
 		76B44FE0E24FC00485596DAF /* Pods_Sample_GraphQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC99D46144AC5DC83BFE4D /* Pods_Sample_GraphQLTests.framework */; };
-		ECE05FF71F01264A009BAC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE05FF61F01264A009BAC3E /* AppDelegate.swift */; };
-		ECE05FF91F01264A009BAC3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE05FF81F01264A009BAC3E /* ViewController.swift */; };
-		ECE05FFC1F01264A009BAC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE05FFA1F01264A009BAC3E /* Main.storyboard */; };
-		ECE05FFE1F01264A009BAC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE05FFD1F01264A009BAC3E /* Assets.xcassets */; };
-		ECE060011F01264A009BAC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE05FFF1F01264A009BAC3E /* LaunchScreen.storyboard */; };
+		EC0D54AF1F014F4D00AC724D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0D54A21F014F4D00AC724D /* Assets.xcassets */; };
+		EC0D54B11F014F4D00AC724D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D54A61F014F4D00AC724D /* AppDelegate.swift */; };
+		EC0D54B21F014F4D00AC724D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0D54A71F014F4D00AC724D /* LaunchScreen.storyboard */; };
+		EC0D54B31F014F4D00AC724D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0D54A91F014F4D00AC724D /* Main.storyboard */; };
+		EC0D54B41F014F4D00AC724D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D54AB1F014F4D00AC724D /* ViewController.swift */; };
+		EC0D54BA1F0150FA00AC724D /* HeroNam.graphql in Resources */ = {isa = PBXBuildFile; fileRef = EC0D54B91F0150FA00AC724D /* HeroNam.graphql */; };
+		EC0D54BC1F01515300AC724D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D54BB1F01515300AC724D /* API.swift */; };
+		EC0D54BE1F0151E700AC724D /* TwoHeroes.graphql in Resources */ = {isa = PBXBuildFile; fileRef = EC0D54BD1F0151E700AC724D /* TwoHeroes.graphql */; };
+		EC0D54C01F01520200AC724D /* HeroAndFriends.graphql in Resources */ = {isa = PBXBuildFile; fileRef = EC0D54BF1F01520200AC724D /* HeroAndFriends.graphql */; };
 		ECE0600C1F01264A009BAC3E /* Sample_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0600B1F01264A009BAC3E /* Sample_GraphQLTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,13 +38,18 @@
 		99CE251DFBC237F648673C8A /* Pods-Sample-GraphQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GraphQLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GraphQLTests/Pods-Sample-GraphQLTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E47AF0EBD54A31AFB0C4A703 /* Pods-Sample-GraphQLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GraphQLTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GraphQLTests/Pods-Sample-GraphQLTests.release.xcconfig"; sourceTree = "<group>"; };
 		EBEC99D46144AC5DC83BFE4D /* Pods_Sample_GraphQLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_GraphQLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0D549F1F014F4D00AC724D /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		EC0D54A21F014F4D00AC724D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0D54A41F014F4D00AC724D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0D54A61F014F4D00AC724D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC0D54A81F014F4D00AC724D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0D54AA1F014F4D00AC724D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0D54AB1F014F4D00AC724D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC0D54B91F0150FA00AC724D /* HeroNam.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HeroNam.graphql; sourceTree = "<group>"; };
+		EC0D54BB1F01515300AC724D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EC0D54BD1F0151E700AC724D /* TwoHeroes.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TwoHeroes.graphql; sourceTree = "<group>"; };
+		EC0D54BF1F01520200AC724D /* HeroAndFriends.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HeroAndFriends.graphql; sourceTree = "<group>"; };
 		ECE05FF31F01264A009BAC3E /* Sample-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECE05FF61F01264A009BAC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECE05FF81F01264A009BAC3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECE05FFB1F01264A009BAC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECE05FFD1F01264A009BAC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECE060001F01264A009BAC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ECE060021F01264A009BAC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE060071F01264A009BAC3E /* Sample-GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-GraphQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE0600B1F01264A009BAC3E /* Sample_GraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_GraphQLTests.swift; sourceTree = "<group>"; };
 		ECE0600D1F01264A009BAC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +95,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC0D549E1F014F4D00AC724D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC0D549F1F014F4D00AC724D /* schema.json */,
+				EC0D54BD1F0151E700AC724D /* TwoHeroes.graphql */,
+				EC0D54BF1F01520200AC724D /* HeroAndFriends.graphql */,
+				EC0D54B91F0150FA00AC724D /* HeroNam.graphql */,
+				EC0D54BB1F01515300AC724D /* API.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC0D54A11F014F4D00AC724D /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				EC0D54A21F014F4D00AC724D /* Assets.xcassets */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		EC0D54A31F014F4D00AC724D /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				EC0D54A41F014F4D00AC724D /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		EC0D54A51F014F4D00AC724D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC0D54A61F014F4D00AC724D /* AppDelegate.swift */,
+				EC0D54A71F014F4D00AC724D /* LaunchScreen.storyboard */,
+				EC0D54A91F014F4D00AC724D /* Main.storyboard */,
+				EC0D54AB1F014F4D00AC724D /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC0D54AC1F014F4D00AC724D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		ECE05FEA1F01264A009BAC3E = {
 			isa = PBXGroup;
 			children = (
@@ -109,12 +164,11 @@
 		ECE05FF51F01264A009BAC3E /* Sample-GraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				ECE05FF61F01264A009BAC3E /* AppDelegate.swift */,
-				ECE05FF81F01264A009BAC3E /* ViewController.swift */,
-				ECE05FFA1F01264A009BAC3E /* Main.storyboard */,
-				ECE05FFD1F01264A009BAC3E /* Assets.xcassets */,
-				ECE05FFF1F01264A009BAC3E /* LaunchScreen.storyboard */,
-				ECE060021F01264A009BAC3E /* Info.plist */,
+				EC0D549E1F014F4D00AC724D /* Model */,
+				EC0D54A11F014F4D00AC724D /* Resouces */,
+				EC0D54A31F014F4D00AC724D /* Supports */,
+				EC0D54A51F014F4D00AC724D /* View */,
+				EC0D54AC1F014F4D00AC724D /* ViewModel */,
 			);
 			path = "Sample-GraphQL";
 			sourceTree = "<group>";
@@ -217,9 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE060011F01264A009BAC3E /* LaunchScreen.storyboard in Resources */,
-				ECE05FFE1F01264A009BAC3E /* Assets.xcassets in Resources */,
-				ECE05FFC1F01264A009BAC3E /* Main.storyboard in Resources */,
+				EC0D54BE1F0151E700AC724D /* TwoHeroes.graphql in Resources */,
+				EC0D54AF1F014F4D00AC724D /* Assets.xcassets in Resources */,
+				EC0D54B31F014F4D00AC724D /* Main.storyboard in Resources */,
+				EC0D54C01F01520200AC724D /* HeroAndFriends.graphql in Resources */,
+				EC0D54BA1F0150FA00AC724D /* HeroNam.graphql in Resources */,
+				EC0D54B21F014F4D00AC724D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +387,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE05FF91F01264A009BAC3E /* ViewController.swift in Sources */,
-				ECE05FF71F01264A009BAC3E /* AppDelegate.swift in Sources */,
+				EC0D54B41F014F4D00AC724D /* ViewController.swift in Sources */,
+				EC0D54B11F014F4D00AC724D /* AppDelegate.swift in Sources */,
+				EC0D54BC1F01515300AC724D /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,20 +412,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECE05FFA1F01264A009BAC3E /* Main.storyboard */ = {
+		EC0D54A71F014F4D00AC724D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECE05FFB1F01264A009BAC3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ECE05FFF1F01264A009BAC3E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECE060001F01264A009BAC3E /* Base */,
+				EC0D54A81F014F4D00AC724D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0D54A91F014F4D00AC724D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0D54AA1F014F4D00AC724D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -471,7 +529,7 @@
 			baseConfigurationReference = 2A98AAF1F66D19BC76762C34 /* Pods-Sample-GraphQL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Sample-GraphQL/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sample-GraphQL/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.asiantech.dev.Sample-GraphQL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,7 +542,7 @@
 			baseConfigurationReference = 66C913BD6009DD03F2D3EE8B /* Pods-Sample-GraphQL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Sample-GraphQL/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sample-GraphQL/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.asiantech.dev.Sample-GraphQL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,6 +599,7 @@
 				ECE060121F01264A009BAC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECE060131F01264A009BAC3E /* Build configuration list for PBXNativeTarget "Sample-GraphQLTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +608,7 @@
 				ECE060151F01264A009BAC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
