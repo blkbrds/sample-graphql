@@ -4,7 +4,7 @@ inhibit_all_warnings!
 use_frameworks!
 install! 'cocoapods', :deterministic_uuids => false
 
-workspace 'MyApp.xcworkspace'
+workspace 'Sample-GraphQL.xcworkspace'
 
 target 'Sample-GraphQL' do
     project 'Sample-GraphQL'
